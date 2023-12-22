@@ -1,0 +1,152 @@
+p {
+    font-weight: 600;
+    font-size: 22px;
+    width: 25%;
+    text-align: start;
+    margin: 0;
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color:lightgray;
+    height: 100vh;
+    width: 100vw;
+}
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(203, 207, 209);
+    height: 100vh;
+    width: 100vw;
+}
+
+.race-track {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50px;
+    width: 90vw;
+    border-radius: 10px;
+    background-color: gray;
+    margin-bottom: 5px;
+}
+
+.runner-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color:gray;
+    width: 25%;
+    height: 60%;
+    margin: 20px;
+    padding: 40px;
+}
+.participants-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    height: 85%;
+    background-color: gray;
+    margin: 20px;
+    padding: 40px;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.heading2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+    margin-top: o;
+}
+.para {
+    margin-top: 0;
+    font-size: 12px;
+    width: 100%;
+}
+.input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.label {
+    font-size: 15px;
+    font-weight: bold;
+}
+.button {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 5px;
+}
+.participants-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin: 0;
+}
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.participants-list {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: o;
+}
+.participants-list-item {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.start-button {
+    font-size: 20px;
+    height: 80px;
+    width: 200px;
+    transform:skewX(-20deg);
+    align-self: flex-end;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: orangered;
+    border-style: solid;
+    border-width: 0;
+    color: white;
+    border-radius: 3px;
+}
+.title {
+    margin: 0px;
+    font-size: 18px;font-weight: 400;
+}
+
+.runner {
+  background-color:lightgray ;
+  margin-bottom: 5px;
+}
